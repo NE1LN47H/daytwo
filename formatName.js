@@ -1,4 +1,4 @@
-function formatName(name) {
+module.exports = function formatName(name) {
     let words = name.toLowerCase().split(' ');
     let formattedName = '';
 
